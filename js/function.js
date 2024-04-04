@@ -27,29 +27,29 @@ $(function(){
         $('#background-video').trigger('play');
       }else if(enter_cnt == 3){
         $('#text2').hide();
-        video_src = "./video/IMG_5366.MP4";
+        video_src = "/video/IMG_5366.MP4";
         $('#background-video source').attr('src', video_src);
         $('#background-video')[0].load();
         
       }else if(enter_cnt == 4){
-        video_src = "./video/IMG_5366.MP4";
+        video_src = "/video/IMG_5366.MP4";
         $('#background-video source').attr('src', video_src);
         $('#background-video')[0].load();
         $('#background-video').trigger('play');
 
       }else if(enter_cnt == 5){
         $('#text3').hide();
-        video_src = "./video/IMG_5367.MP4";
+        video_src = "/video/IMG_5367.MP4";
         $('#background-video source').attr('src', video_src);
         $('#background-video')[0].load();
         
       }else if(enter_cnt == 6){
-        video_src = "./video/IMG_5367.MP4";
+        video_src = "/video/IMG_5367.MP4";
         $('#background-video source').attr('src', video_src);
         $('#background-video')[0].load();
         $('#text4').hide();
       }else if(enter_cnt == 7){
-        video_src = "./video/IMG_5367.MP4";
+        video_src = "/video/IMG_5367.MP4";
         $('#background-video source').attr('src', video_src);
         $('#background-video')[0].load();
         $('#background-video').trigger('play');
