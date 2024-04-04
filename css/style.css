@@ -175,52 +175,52 @@ input[type="text"]:focus {
   position: absolute;
   top: 85%;
   left: 10%;
-  margin : 1em auto;
+  padding : 1em;
   min-width: fit-content;
   min-height: fit-content;
   font-size: 32px;
   border-radius: 15px;
-  background-color: rgba(204, 120, 51, 0.726);
-  color: #ffffff;
+  background-color: rgba(202, 202, 202, 0.726);
+  color: #412200;
 }
 
 #game_container #text2 {
   position: absolute;
   top: 10%;
   left: 70%;
-  margin : 1em auto;
+  padding : 1em;
   min-width: fit-content;
   min-height: fit-content;
   font-size: 32px;
   border-radius: 15px;
-  background-color: rgba(204, 120, 51, 0.726);
-  color: #ffffff;
+  background-color: rgba(202, 202, 202, 0.726);
+  color: #412200;
 }
 
 #game_container #text3 {
   position: absolute;
   top: 90%;
   left: 60%;
-  margin : 1em auto;
+  padding : 1em;
   min-width: fit-content;
   min-height: fit-content;
   font-size: 32px;
   border-radius: 15px;
-  background-color: rgba(204, 120, 51, 0.726);
-  color: #ffffff;
+  background-color: rgba(202, 202, 202, 0.726);
+  color: #412200;
 }
 
 #game_container #text4 {
   position: absolute;
   top: 10%;
   left: 10%;
-  margin : 1em auto;
+  padding : 1em;
   min-width: fit-content;
   min-height: fit-content;
   font-size: 32px;
   border-radius: 15px;
-  background-color: rgba(204, 120, 51, 0.726);
-  color: #ffffff;
+  background-color: rgba(202, 202, 202, 0.726);
+  color: #412200;
 }
 
 #end_page {
