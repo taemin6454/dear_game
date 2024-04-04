@@ -58,9 +58,11 @@ $(function(){
         alert("미션 클리어!! 다음 스탭으로 이동해주세요!");
         $('#game_container').addClass("none");
         $('#end_page').removeClass("none");
-        
+        $('#logo_area').addClass("none");
+
       }else if(enter_cnt == 9){
         alert("다시 시작해보시겠어요?");
+        $('#logo_area').removeClass("none");
         $('#form_container').removeClass("none");
         $('#end_page').addClass("none");
         
