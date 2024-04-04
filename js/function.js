@@ -15,14 +15,15 @@ $(function(){
       enter_cnt = enter_cnt + 1;
       console.log("enter_cnt: "+enter_cnt);
 
-      video_src = "./video/IMG_5365.MP4";
-      $('#background-video source').attr('src', video_src);
-      $('#background-video')[0].load();
-
+      
 
       if (enter_cnt == 1){
         $('#text1').hide();
         
+        video_src = "/video/IMG_5365.MP4";
+        $('#background-video source').attr('src', video_src);
+        $('#background-video')[0].load();
+
       }else if(enter_cnt == 2){
         $('#background-video').trigger('play');
       }else if(enter_cnt == 3){
